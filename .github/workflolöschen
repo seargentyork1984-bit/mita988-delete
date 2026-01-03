@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Konto löschen – MiTa988 Workout Pro</title>
+  <meta name="description" content="Anleitung zum Löschen deines Kontos und deiner Daten in der App MiTa988 Workout Pro." />
+  <style>
+    :root { --bg:#0b0f14; --card:#121926; --text:#e8eef7; --muted:#a9b4c7; --accent:#4ea1ff; --border:#263248; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 28px 16px 60px; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:18px 18px; }
+    h1 { font-size: 26px; margin: 0 0 10px; }
+    h2 { font-size: 18px; margin: 20px 0 8px; }
+    p, li { color:var(--muted); line-height: 1.55; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge { display:inline-block; font-size:12px; padding:4px 10px; border:1px solid var(--border); border-radius:999px; color:var(--muted); margin-bottom: 10px;}
+    .steps { margin: 0; padding-left: 18px; }
+    .note { border-left: 3px solid var(--accent); padding: 10px 12px; background: rgba(78,161,255,0.08); border-radius: 10px; }
+    .footer { margin-top: 18px; font-size: 12px; color: var(--muted); }
+    code { background: rgba(255,255,255,0.06); padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="badge">MiTa988 Workout Pro – Kontolöschung</div>
+    <div class="card">
+      <h1>Konto löschen und Daten entfernen</h1>
+      <p>
+        Auf dieser Seite findest du die Schritte, um dein Konto und die zugehörigen Daten in der App
+        <strong>MiTa988 Workout Pro</strong> löschen zu lassen.
+      </p>
+
+      <h2>Option A: Konto in der App löschen (empfohlen)</h2>
+      <ol class="steps">
+        <li>Öffne die App <strong>MiTa988 Workout Pro</strong>.</li>
+        <li>Gehe zu <strong>unten rechts</strong>.</li>
+        <li>Wähle <strong>„Konto löschen“</strong> und bestätige die Löschung.</li>
+      </ol>
+
+      <h2>Option B: Löschanfrage per E-Mail (falls Login nicht möglich ist)</h2>
+      <p class="note">
+        Sende eine E-Mail an: <a href="mailto:support@mita988.app?subject=Konto%20l%C3%B6schen%20-%20MiTa988%20Workout%20Pro">support@mita988.app</a><br/>
+        Betreff: <code>Konto löschen - MiTa988 Workout Pro</code><br/>
+        Bitte gib in der Nachricht die E-Mail-Adresse an, mit der du dich registriert hast.
+      </p>
+
+      <h2>Welche Daten werden gelöscht?</h2>
+      <ul>
+        <li>Dein Benutzerkonto (Firebase Authentication)</li>
+        <li>Deine appbezogenen Profildaten (sofern gespeichert)</li>
+        <li>Deine Trainingsdaten, die deinem Konto zugeordnet sind (sofern gespeichert)</li>
+      </ul>
+
+      <h2>Welche Daten können aus rechtlichen/technischen Gründen ggf. länger bestehen bleiben?</h2>
+      <ul>
+        <li>Technische Logs/Backups können für eine begrenzte Zeit bestehen bleiben (z. B. Sicherungen).</li>
+        <li>Wenn gesetzliche Aufbewahrungspflichten bestehen, werden nur die erforderlichen Daten aufbewahrt.</li>
+      </ul>
+
+      <h2>Bearbeitungsdauer</h2>
+      <p>
+        Löschanfragen per E-Mail werden in der Regel innerhalb von <strong>30 Tagen</strong> bearbeitet.
+      </p>
+
+      <h2>Kontakt</h2>
+      <p>
+        Support: <a href="mailto:seargentyork1984@googlemail.com">seargentyork1984@googlemail.com</a>
+      </p>
+
+      <div class="footer">
+        Stand: <span id="date"></span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("date").textContent = new Date().toLocaleDateString("de-DE");
+  </script>
+</body>
+</html>
